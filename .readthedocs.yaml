@@ -23,12 +23,4 @@ python:
    install:
    - requirements: doc/requirements.txt
    - method: pip
-<<<<<<< HEAD
-<<<<<<< HEAD
      path: .
-=======
-   - path: .
->>>>>>> 0f1af35 (Add readthedoc config and requirements)
-=======
-     path: .
->>>>>>> 007d271 (Add readthedoc config and requirements)
