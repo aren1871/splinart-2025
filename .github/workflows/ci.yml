@@ -5,7 +5,14 @@ on:
     branches: [main]
 
 jobs:
+  pre-commit:               # ajoute le pre-commit comme routine pour être sûr que ce soit lancé qu'importe l'utilisateur et la machine
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pre-commit/action@v4.0.0
+
   build:
+    needs: pre-commit
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
