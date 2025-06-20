@@ -12351,7 +12351,7 @@ packages:
 - pypi: ./
   name: splinart
   version: 0.1.0
-  sha256: 7012a800cff35f90e49982347a5d4fea280f621a6d9a3ac0f172f03464fe1a99
+  sha256: 7170af35bb70318990e1a3407e68966329d1f4d1665b514bea73db0e65fc93d4
   requires_dist:
   - numpy
   - matplotlib
